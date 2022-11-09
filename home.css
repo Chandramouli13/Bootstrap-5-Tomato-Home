@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Navbar  */
+
+.navbar a img {
+    height: 52px;
+    width: 120px;
+    margin: -2;
+    border-radius: 10px;
+}
+
+.navbar-nav button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.navbar {
+    background-color: black;
+    box-shadow: 0 10px 10px black;
+}
+
+/*Banner CSS*/
+
+.banner-image {
+    background-image: url('Images/bg-image.jpg');
+    background-size: cover;
+}
+
+.banner-image img{ 
+    height: 120px; 
+    margin-top: 280;
+}
+
+.logo {
+    transition: 0s ease;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+
+.banner-image h1 {
+    color: darkorange;
+    font-size: 60px;
+    margin: 20;
+    margin-bottom: 50;
+}
+
+.form-select {
+    margin-bottom: 180;
+}
+
+
+/*Quick search CSS*/
+
+.card {
+    overflow: hidden;
+}
+
+.card img{
+    height: 250px;
+    padding: 8px;
+    border-radius: 20px;
+    transition: all 1.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.2);
+}
+
+.card-title {
+    color: aliceblue;
+}
+
+.card-text {
+    color: rgb(124, 156, 156);
+}
+
+
+
+
+/*footer CSS*/
+
+

@@ -1,0 +1,198 @@
+body{
+    margin: auto;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 60px;
+    background-color:#213b50;
+    position: fixed;
+    width: 100%;
+}
+
+button{
+    height: 35px;
+    width: 100px;
+    background-color:#4a3c70;
+    margin-top: 6%;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    
+}
+
+#Login{
+    background-color:rgb(81, 161, 61);
+}
+
+#Signup{
+    background-color:#4d8bbe;
+}
+
+#name{
+    float: left;
+    display: flex;
+    color: azure;
+}
+
+#name > h1{
+    height: 30px;
+    margin-left: 20%;
+    margin-top: 6%;
+}
+
+.home{
+    margin-left: 15%;
+    margin-top: 12%;
+}
+
+#social{
+    float: right;
+    margin-right: 2%;
+}
+
+
+/*Search CSS*/
+.container{
+    height: 800px;
+    width: 90%;
+    /*border: 2px solid blue;*/
+    margin-left: 5%;
+    margin-top: 7%;
+    display: inline-block;
+
+}
+
+#filter{
+    height:500px ;
+    width: 20%;
+    border: 2px groove gray;
+    float: left;
+    color:#213b50;
+    background-color:rgb(186, 200, 209);
+}
+
+#filter h1{
+    text-align: center;
+    padding: 3px;
+    border-bottom: 1px solid gray;  
+}
+
+#filter h2{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#filter input{
+    margin-left: 12px;
+    margin-top: 8px;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+
+#content{
+    /*height: 700px;*/
+    width: 75%;
+    margin-left: 4% ;
+    /*border: 2px solid red;*/
+    float: left;
+}
+
+#item{
+    margin-left: 2%;
+    display: flex;
+    box-shadow: 0px 2px 2px gray;
+    height: 350px;
+    margin-bottom: 40px;
+    background-color: rgb(211, 243, 243);
+}
+
+
+.foodImage{
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.foodImage img{
+    border-radius: 50px;
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.foodDescription{
+    margin-left: 2%;
+}
+
+.foodDescription h2{
+    color: blueviolet;
+}
+
+.foodDescription p{
+    color: gray;
+}
+
+.foodDescription div{
+    height: 24px;
+    width: 110px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.lunch{
+    background-color: green;
+}
+
+.fast-food{
+    background-color: orangered;
+}
+
+.north-indian{
+    background-color: rgb(218, 124, 90);
+}
+
+.south-indian{
+    background-color: rgb(79, 108, 163);
+}
+
+.dinner{
+    background-color: #9abb09;
+}
+
+/*footer CSS*/
+footer{
+    /*height: 100px;*/
+    /*border: 2px solid red;*/
+    background-color:#213b50;  
+    margin-top: 30%;
+    text-align: center;
+    color: azure;
+}
+
+.about{
+    height: 70px;
+    width: 33%;
+    display: inline-block;
+    border-right: 2px solid azure;
+}
+
+.noBorder{
+    border:none;
+}
+
+.socialIcon{
+    height: 40px;
+    width: 40px;
+}
+

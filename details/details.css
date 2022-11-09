@@ -1,0 +1,145 @@
+body{
+    margin: auto;
+    background-color:whitesmoke;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 60px;
+    /*border: 2px solid red;*/
+    background-color:#213b50;
+    position: fixed;
+    width: 100%;
+}
+
+
+button{
+    height: 38px;
+    width: 100px;
+    background-color:#4a3c70;
+    margin-top: 6%;
+    border-radius: 3px;
+    cursor: pointer;
+    color: whitesmoke;
+    border: none;
+}
+
+#Login{
+    background-color:rgb(81, 161, 61);
+}
+
+#Signup{
+    background-color:#4d8bbe;
+}
+
+#name{
+    float: left;
+    display: flex;
+    color: azure;
+}
+
+#name > h1{
+    height: 30px;
+    margin-left: 20%;
+    margin-top: 6%;
+}
+
+.home{
+    margin-left: 15%;
+    margin-top: 12%;
+}
+
+#social{
+    float: right;
+    margin-right: 2%;
+}
+
+
+/*Search CSS*/
+
+.container{
+    height: 400px;
+    width: 90%;
+    /*border: 2px solid blue;*/
+    margin-left: 7%;
+    margin-top: 8%;
+    display: inline-block;
+}
+
+#imgDiv{
+    height: 400px;
+    width: 35%;
+    /*border: 2px solid blue;*/
+    float: left;
+}
+
+#imgDiv img{
+    height: 100%;
+    width: 100%;
+    border: 5px groove black;
+}
+
+#contentDiv{
+    height: 600px;
+    width: 55%;
+    /*border: 2px solid blue;*/
+    margin-left: 4%;
+    float: left;
+    color:#213b50;
+    margin-top: -1%;
+}
+
+figure{
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-left:2;
+}
+
+figure img{
+    width: 100%; 
+    height: 80%;    
+}
+
+.starClass{
+    color: green;
+}
+
+.oldprice{
+    color: gray;
+}
+
+#contentDiv p{
+    color: gray;
+}
+
+/*footer CSS*/
+footer{
+    /*height: 100px;*/
+    /*border: 2px solid red;*/
+    background-color:#213b50;  
+    margin-top: 15%;
+    text-align: center;
+    color: azure;
+}
+
+.about{
+    height: 70px;
+    width: 33%;
+    display: inline-block;
+    border-right: 2px solid azure;
+}
+
+.noBorder{
+    border:none;
+}
+
+.socialIcon{
+    height: 50px;
+    width: 50px;
+}
+
